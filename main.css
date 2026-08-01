@@ -14,7 +14,25 @@
     background-color: #222;
 }
 
-.profiles {
+.profile-name {
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    margin: 10px;
+}
+
+.profile-picture {
+    height: 250px;
+}
+
+.profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+}
+
+.profiles-box {
     background: #f9f1ff3d;
     backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -31,15 +49,23 @@
     flex: 1;
 }
 
-.Profile {
-    display: flex;
-    flex-wrap: wrap;
-    display: inline;
-    width: 350px;
-    border: 3px solid #fff1c7;
-    border-radius: 10px;  
-    outline:2px solid #ffda61;
-    transition: 0.5s;
+.profile {
+    background: linear-gradient(#938a7f41, #2c2a2faf);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 3px solid #f9f1ff3d;
+    box-shadow: 0px 15px 15px #00000041;
+    outline: 2px solid #e6d5eeb6;
+    padding: 25px;
+    height: 450px;
+    transition: 0.75s;
+}
+
+.profile:hover {
+    box-shadow: 0px 0px 75px #ebc657c3;
+    border: 3px solid #ffd4773d;
+        background: linear-gradient(#d2a36a41, #29231aaf);
+        transform: scale(1.025);
 }
 
 .участники {
