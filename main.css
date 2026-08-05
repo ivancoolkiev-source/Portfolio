@@ -22,28 +22,34 @@
 }
 
 .profile-picture {
-    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 3px solid #f9f1ff3d;
+    box-shadow: 0px 15px 15px #00000041;
+    outline: 2px solid #e6d5eeb6;
+    height: 225px;
 }
 
 .profile-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 75px;
+    gap: 50px;
 }
 
 .profiles-box {
-    background: #f9f1ff3d;
+    background: #f9f1ff0e;
     backdrop-filter: blur(10px);
     border-radius: 15px;
     border: 3px solid #f9f1ff3d;
     box-shadow: 0px 15px 15px #00000041;
-    outline: 2px solid #e6d5eeb6;
     padding: 65px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    height: 565px;
+    height: 590px;
     width: 1500px;
     font-size:20px;
     flex: 1;
@@ -59,19 +65,21 @@
     padding: 25px;
     height: 450px;
     transition: 0.75s;
+    color: #f5f2f7;
 }
 
 .profile:hover {
-    box-shadow: 0px 0px 75px #ebc657c3;
+    box-shadow: 0px 0px 25px #f0e79292;
     border: 3px solid #ffd4773d;
-        background: linear-gradient(#d2a36a41, #29231aaf);
-        transform: scale(1.025);
+    background: linear-gradient(#d2a36a41, #29231aaf);
+    transform: scale(1.025);
 }
 
-.участники {
-    color: red;
+.devs {
     display: flex;
     justify-content: center;
+    color: #f5f2f7;
+    display: flex;
 }
 
 .names {
@@ -79,4 +87,104 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.roles {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.wtch-prof {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    background: #f9f1ff3d;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: 3px solid #f9f1ff3d;
+    box-shadow: 0px 15px 15px #00000041;
+    outline: 2px solid #e6d5eeb6;
+    transition: 0.5s;
+}
+
+.wtch-prof:hover {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    background: #f9f1ff3d;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: 3px solid #f9f1ff3d;
+    box-shadow: 0px 15px 15px #00000041;
+    outline: 2px solid #e6d5eeb6;
+    transform: scale(1.1);
+}
+
+
+.html-role {
+    font-size: 25px;
+    padding: 3px;
+    background: #ff724727;
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    border: 1px solid #ff9270a8;
+    box-shadow: 0px 5px 5px #00000041;
+    transition: 0.25s;
+    color: #ffd4c5;
+    
+}
+
+.css-role {
+    font-size: 25px;
+    padding: 3px;
+    background: #61c2ff27;
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    border: 1px solid #91d8ffa8;
+    box-shadow: 0px 5px 5px #00000041;
+    transition: 0.25s;
+    color:#cff9ff;
+}
+
+.js-role {
+    font-size: 25px;
+    padding: 3px;
+    background: #ffed4727;
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    border: 1px solid #f8ff70a8;
+    box-shadow: 0px 5px 5px #00000041;
+    transition: 0.25s;
+    color: #feffc5;
+}
+
+
+
+.html-role:hover {
+    box-shadow: 0px 0px 15px #ffca6141;
+    transform: scale(1.1);
+    
+}
+
+.css-role:hover {
+    box-shadow: 0px 0px 10px #57e6ff41;
+    transform: scale(1.1);
+}
+
+.js-role:hover {
+    box-shadow: 0px 0px 10px #fff86f41;
+    transform: scale(1.1);
+}
+
+
+.nav-link-item {
+    transition: 0.25s;
+}
+
+.nav-link-item:hover {
+    transform: scale(1.1);
+    text-shadow: 0px 0px 5px #e1fbff78;
 }
