@@ -188,3 +188,14 @@
     transform: scale(1.1);
     text-shadow: 0px 0px 5px #e1fbff78;
 }
+
+.telegram-link {
+    transition: 0.25s;
+}
+
+.telegram-link:hover {
+    transform: scale(1.1);
+    color: #24A1DE;
+    text-shadow: 0px 0px 10px #65afd4;
+
+}

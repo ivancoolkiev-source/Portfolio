@@ -19,6 +19,9 @@ footer {
   margin-top: auto;
   outline: 2px solid #e6d5eeb6;
   font-size:20px;
+  display: flex;
+  justify-content: space-between; /* Расталкивает левый и правый блоки по краям */
+  align-items: center;
 }
 
 a {
@@ -53,3 +56,11 @@ display: flex;
   align-items: center;
   gap: 15px;
 }
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;                      /* Расстояние между иконками/ссылками внутри одного блока */
+}
+
