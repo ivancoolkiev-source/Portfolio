@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   const hoverSound = new Audio('hoverSound.mp3');
-  hoverSound.volume = 0.2;
+  hoverSound.volume = 0.4;
 
   const clickSound = new Audio('clickSound.mp3');
-  clickSound.volume = 0.3;
+  clickSound.volume = 0.4;
 
   const interactiveElements = document.querySelectorAll('a, button, .nav-link-item');
 
