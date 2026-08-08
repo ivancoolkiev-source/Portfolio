@@ -17,7 +17,7 @@
 
 
 .text-box {
-    background: #f9f1ff0e;
+    background: #fff1f10e;
     backdrop-filter: blur(10px);
     border-radius: 15px;
     border: 3px solid #f9f1ff3d;
@@ -29,6 +29,7 @@
     height: 500px;
     width: 720px;
     font-size:20px;
+    
     flex: 1;
 }
 
